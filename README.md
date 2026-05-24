@@ -590,16 +590,16 @@ Below is the Update UI implementation for Task Manager:
             <th colspan="4" align="center">Task Manager Application Using Flutter</th>
         </tr>
         <tr>
-            <td><img width="300" height="440" alt="img1" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/dashboard1.png"></td>
-            <td><img width="300" height="440" alt="img2" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/dashboard2.png"></td>
-            <td><img width="300" height="440" alt="img3" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/homeupdate.png"></td>
-            <td><img width="300" height="440" alt="img4" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/api.png"></td>
+            <td><img width="300" height="440" alt="img1" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/screenshots/dashboard1.png"></td>
+            <td><img width="300" height="440" alt="img2" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/screenshots/dashboard2.png"></td>
+            <td><img width="300" height="440" alt="img3" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/screenshots/homeupdate.png"></td>
+            <td><img width="300" height="440" alt="img4" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/screenshots/api.png"></td>
         </tr>
         <tr>
-            <td><img width="300" height="440" alt="img5" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/cloudfirebase.png"></td>
-            <td><img width="300" height="440" alt="img6" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/drawer.png"></td>
-            <td><img width="300" height="440" alt="img7" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/provider1.png"></td>
-            <td><img width="300" height="440" alt="img8" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/provider2.png"></td>
+            <td><img width="300" height="440" alt="img5" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/screenshots/cloudfirebase.png"></td>
+            <td><img width="300" height="440" alt="img6" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/screenshots/drawer.png"></td>
+            <td><img width="300" height="440" alt="img7" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/screenshots/provider1.png"></td>
+            <td><img width="300" height="440" alt="img8" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/screenshots/provider2.png"></td>
         </tr>
         <tr>
             <td colspan="4" align="center">
