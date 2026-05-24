@@ -68,10 +68,9 @@ Below is the UI implementation for Login:
             <td><img width="300" height="440" alt="img1" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/flutter_login_app_week_1/screenshots/1.png"></td>
             <td><img width="300" height="440" alt="img2" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/flutter_login_app_week_1/screenshots/2.png"></td>
             <td><img width="300" height="440" alt="img3" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/flutter_login_app_week_1/screenshots/3.png"></td>
-            <td><img width="300" height="440" alt="img4" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/flutter_login_app_week_1/screenshots/4.png"></td>
         </tr>
         <tr>
-            <td colspan="4" align="center">
+            <td colspan="3" align="center">
                 <a href="https://github.com/R-Rubab/3-Week-Flutter-Internship">
                     <img src="https://github-readme-stats.vercel.app/api/pin/?username=R-Rubab&repo=3-Week-Flutter-Internship&theme=dracula" alt="Storage" />
                 </a>
@@ -274,14 +273,14 @@ Below is the UI implementation for Task Manager:
             <th colspan="4" align="center">Task Manager Application Using Flutter</th>
         </tr>
         <tr>
-            <td><img width="300" height="440" alt="img1" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/flutter_apps/screenshots/splash.png"></td>
-            <td><img width="300" height="440" alt="img2" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/flutter_apps/screenshots/login1.png"></td>
-            <td><img width="300" height="440" alt="img3" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/flutter_apps/screenshots/login2.png"></td>
-            <td><img width="300" height="440" alt="img4" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/flutter_apps/screenshots/home1.png"></td> 
+            <td><img width="300" height="440" alt="img1" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/week3_task_manager/screenshots/splash.png"></td>
+            <td><img width="300" height="440" alt="img2" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/week3_task_manager/screenshots/login1.png"></td>
+            <td><img width="300" height="440" alt="img3" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/week3_task_manager/screenshots/login2.png"></td>
+            <td><img width="300" height="440" alt="img4" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/week3_task_manager/screenshots/home1.png"></td> 
         </tr>
         <tr>
-            <td><img width="300" height="440" alt="img5" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/flutter_apps/screenshots/home2.png"></td>
-            <td><img width="300" height="440" alt="img6" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/flutter_apps/screenshots/home3.png"></td>
+            <td><img width="300" height="440" alt="img5" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/week3_task_manager/screenshots/home2.png"></td>
+            <td><img width="300" height="440" alt="img6" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/week3_task_manager/screenshots/home3.png"></td>
             <td><img width="300" height="440" alt="img7" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/week3_task_manager/screenshots/home4.png"></td>
             <td><img width="300" height="440" alt="img8" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/week3_task_manager/screenshots/home5.png"></td>
         </tr>
