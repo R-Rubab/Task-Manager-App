@@ -65,15 +65,15 @@ Below is the UI implementation for Login:
             <th colspan="4" align="center">Login Application Using Flutter</th>
         </tr>
         <tr>
-            <td><img width="300" height="440" alt="img1" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_login_app_week_1/screenshots/1.png"></td>
-            <td><img width="300" height="440" alt="img2" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_login_app_week_1/screenshots/2.png"></td>
-            <td><img width="300" height="440" alt="img3" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_login_app_week_1/screenshots/3.png"></td>
-            <td><img width="300" height="440" alt="img4" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_login_app_week_1/screenshots/4.png"></td>
+            <td><img width="300" height="440" alt="img1" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/flutter_login_app_week_1/screenshots/1.png"></td>
+            <td><img width="300" height="440" alt="img2" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/flutter_login_app_week_1/screenshots/2.png"></td>
+            <td><img width="300" height="440" alt="img3" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/flutter_login_app_week_1/screenshots/3.png"></td>
+            <td><img width="300" height="440" alt="img4" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/flutter_login_app_week_1/screenshots/4.png"></td>
         </tr>
         <tr>
             <td colspan="4" align="center">
-                <a href="https://github.com/R-Rubab/Task-Manager-App">
-                    <img src="https://github-readme-stats.vercel.app/api/pin/?username=R-Rubab&repo=Task-Manager-App&theme=dracula" alt="Storage" />
+                <a href="https://github.com/R-Rubab/3-Week-Flutter-Internship">
+                    <img src="https://github-readme-stats.vercel.app/api/pin/?username=R-Rubab&repo=3-Week-Flutter-Internship&theme=dracula" alt="Storage" />
                 </a>
             </td>
         </tr>
@@ -120,15 +120,15 @@ Below is the UI implementation for Task Manager:
             <th colspan="4" align="center">Todo Application Using Flutter</th>
         </tr>
         <tr>
-            <td><img width="300" height="440" alt="img1" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/week2_todo_app/screenshots/1.png"></td>
-            <td><img width="300" height="440" alt="img2" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/week2_todo_app/screenshots/2.png"></td>
-            <td><img width="300" height="440" alt="img3" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/week2_todo_app/screenshots/3.png"></td>
-            <td><img width="300" height="440" alt="img4" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/week2_todo_app/screenshots/4.png"></td>
+            <td><img width="300" height="440" alt="img1" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/week2_todo_app/screenshots/1.png"></td>
+            <td><img width="300" height="440" alt="img2" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/week2_todo_app/screenshots/2.png"></td>
+            <td><img width="300" height="440" alt="img3" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/week2_todo_app/screenshots/3.png"></td>
+            <td><img width="300" height="440" alt="img4" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/week2_todo_app/screenshots/4.png"></td>
         </tr>
         <tr>
             <td colspan="4" align="center">
-                <a href="https://github.com/R-Rubab/Task-Manager-App">
-                    <img src="https://github-readme-stats.vercel.app/api/pin/?username=R-Rubab&repo=Task-Manager-App&theme=dracula" alt="Storage" />
+                <a href="https://github.com/R-Rubab/3-Week-Flutter-Internship">
+                    <img src="https://github-readme-stats.vercel.app/api/pin/?username=R-Rubab&repo=3-Week-Flutter-Internship&theme=dracula" alt="Storage" />
                 </a>
             </td>
         </tr>
@@ -274,33 +274,33 @@ Below is the UI implementation for Task Manager:
             <th colspan="4" align="center">Task Manager Application Using Flutter</th>
         </tr>
         <tr>
-            <td><img width="300" height="440" alt="img1" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/splash.png"></td>
-            <td><img width="300" height="440" alt="img2" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/login1.png"></td>
-            <td><img width="300" height="440" alt="img3" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/login2.png"></td>
-            <td><img width="300" height="440" alt="img4" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/home1.png"></td> 
+            <td><img width="300" height="440" alt="img1" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/flutter_apps/screenshots/splash.png"></td>
+            <td><img width="300" height="440" alt="img2" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/flutter_apps/screenshots/login1.png"></td>
+            <td><img width="300" height="440" alt="img3" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/flutter_apps/screenshots/login2.png"></td>
+            <td><img width="300" height="440" alt="img4" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/flutter_apps/screenshots/home1.png"></td> 
         </tr>
         <tr>
-            <td><img width="300" height="440" alt="img5" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/home2.png"></td>
-            <td><img width="300" height="440" alt="img6" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/home3.png"></td>
-            <td><img width="300" height="440" alt="img7" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/home4.png"></td>
-            <td><img width="300" height="440" alt="img8" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/home5.png"></td>
+            <td><img width="300" height="440" alt="img5" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/flutter_apps/screenshots/home2.png"></td>
+            <td><img width="300" height="440" alt="img6" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/flutter_apps/screenshots/home3.png"></td>
+            <td><img width="300" height="440" alt="img7" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/week3_task_manager/screenshots/home4.png"></td>
+            <td><img width="300" height="440" alt="img8" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/week3_task_manager/screenshots/home5.png"></td>
         </tr>
         <tr>
-            <td><img width="300" height="440" alt="img9" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/home6.png"></td>
-            <td><img width="300" height="440" alt="img10" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/home7.png"></td>
-            <td><img width="300" height="440" alt="img11" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/home8.png"></td>
-            <td><img width="300" height="440" alt="img12" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/home9.png"></td>
+            <td><img width="300" height="440" alt="img9" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/week3_task_manager/screenshots/home6.png"></td>
+            <td><img width="300" height="440" alt="img10" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/week3_task_manager/screenshots/home7.png"></td>
+            <td><img width="300" height="440" alt="img11" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/week3_task_manager/screenshots/home8.png"></td>
+            <td><img width="300" height="440" alt="img12" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/week3_task_manager/screenshots/home9.png"></td>
         </tr>
        <tr>
-            <td><img width="300" height="440" alt="img13" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/home10.png"></td>
-            <td><img width="300" height="440" alt="img14" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/home11.png"></td>
-            <td><img width="300" height="440" alt="img15" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/home12.png"></td>
-            <td><img width="300" height="440" alt="img16" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/home13.png"></td>
+            <td><img width="300" height="440" alt="img13" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/week3_task_manager/screenshots/home10.png"></td>
+            <td><img width="300" height="440" alt="img14" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/week3_task_manager/screenshots/home11.png"></td>
+            <td><img width="300" height="440" alt="img15" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/week3_task_manager/screenshots/home12.png"></td>
+            <td><img width="300" height="440" alt="img16" src="https://github.com/R-Rubab/3-Week-Flutter-Internship/blob/main/week3_task_manager/screenshots/home13.png"></td>
         </tr>
         <tr>
             <td colspan="4" align="center">
-                <a href="https://github.com/R-Rubab/Task-Manager-App">
-                    <img src="https://github-readme-stats.vercel.app/api/pin/?username=R-Rubab&repo=Task-Manager-App&theme=dracula" alt="Storage" />
+                <a href="https://github.com/R-Rubab/3-Week-Flutter-Internship">
+                    <img src="https://github-readme-stats.vercel.app/api/pin/?username=R-Rubab&repo=3-Week-Flutter-Internship&theme=dracula" alt="Storage" />
                 </a>
             </td>
         </tr>
