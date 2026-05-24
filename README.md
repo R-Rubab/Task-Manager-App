@@ -1,38 +1,711 @@
-# Week 4 - API Integration
+# 📱 Week 1 Flutter Task – Login App
+
+## 📌 Overview
+
+This project is part of my Flutter Internship at DevelopersHub Corporation.
+
+The goal of this task was to understand Flutter basics, UI design, navigation, and form validation.
+
+---
+
+## 🚀 Features Implemented
+
+### 🔐 Login Screen
+
+* Email & Password fields using TextFormField
+* Email validation using Regex
+* Password validation (required field)
+* Styled UI using Column, Container, and Padding
+
+### 🔄 Navigation
+
+* Successfully navigated from Login Screen to Home Screen using Navigator.push()
+
+### 🏠 Home Screen
+
+* Displays a welcome message with user email
+
+### 🧠 Concepts Learned
+
+* Flutter project structure
+* Stateful vs Stateless widgets
+* Form validation using GlobalKey
+* Navigation between screens
+
+---
+
+## 🛠️ Setup Instructions
+
+1. Clone repository:
+   git clone git@github.com:R-Rubab/Task-Manager-App.git
+
+2. Go to project:
+   cd week1_login_app
+
+3. Install dependencies:
+   flutter pub get
+
+4. Run app:
+   flutter run
+
+---
+
+## 📷 Output
+
+* Login screen with validation
+* Navigation to Home screen
+
+
+## Screenshots
+## User Interface Layout:
+Below is the UI implementation for Login:
+<table>
+<tbody>
+        <tr>
+            <th colspan="4" align="center">Login Application Using Flutter</th>
+        </tr>
+        <tr>
+            <td><img width="300" height="440" alt="img1" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_login_app_week_1/screenshots/1.png"></td>
+            <td><img width="300" height="440" alt="img2" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_login_app_week_1/screenshots/2.png"></td>
+            <td><img width="300" height="440" alt="img3" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_login_app_week_1/screenshots/3.png"></td>
+            <td><img width="300" height="440" alt="img4" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_login_app_week_1/screenshots/4.png"></td>
+        </tr>
+        <tr>
+            <td colspan="4" align="center">
+                <a href="https://github.com/R-Rubab/Task-Manager-App">
+                    <img src="https://github-readme-stats.vercel.app/api/pin/?username=R-Rubab&repo=Task-Manager-App&theme=dracula" alt="Storage" />
+                </a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+---
+
+# 📱 Week 2 Flutter Task – Todo & Counter App
+
+## 📌 Overview
+
+This project is part of my Flutter Internship (Week 2).
+
+The goal was to learn state management using setState and implement local storage using SharedPreferences.
+
+---
+
+## 🚀 Features
+
+### 🔢 Counter App
+
+* Increment & Decrement counter
+* Data saved using SharedPreferences
+* Value persists after app restart
+
+### 📝 To-Do App
+
+* Add tasks
+* Display tasks using ListView
+* Mark tasks as complete
+* Delete tasks
+* Persistent storage using SharedPreferences
+
+---
+
+## Screenshots
+## User Interface Layout:
+Below is the UI implementation for Task Manager:
+<table>
+<tbody>
+        <tr>
+            <th colspan="4" align="center">Todo Application Using Flutter</th>
+        </tr>
+        <tr>
+            <td><img width="300" height="440" alt="img1" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/week2_todo_app/screenshots/1.png"></td>
+            <td><img width="300" height="440" alt="img2" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/week2_todo_app/screenshots/2.png"></td>
+            <td><img width="300" height="440" alt="img3" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/week2_todo_app/screenshots/3.png"></td>
+            <td><img width="300" height="440" alt="img4" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/week2_todo_app/screenshots/4.png"></td>
+        </tr>
+        <tr>
+            <td colspan="4" align="center">
+                <a href="https://github.com/R-Rubab/Task-Manager-App">
+                    <img src="https://github-readme-stats.vercel.app/api/pin/?username=R-Rubab&repo=Task-Manager-App&theme=dracula" alt="Storage" />
+                </a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+## 🧠 Concepts Learned
+
+* setState for UI updates
+* Local data persistence
+* JSON encoding/decoding
+* ListView.builder usage
+
+---
+
+## 🛠️ Setup
+
+1. Clone repo:
+   git clone git@github.com:R-Rubab/Task-Manager-App.git
+
+2. Install dependencies:
+   flutter pub get
+
+3. Run:
+   flutter run
+
+---
+
+## 💡 Tech Used
+
+* Flutter
+* Dart
+* SharedPreferences
+
+---
+
+# Week 3 Task Manager
+
+A Flutter task management app with Firebase Authentication, local task persistence, dark/light theme support, and a modern mobile UI.
 
 ## Features
 
-- Fetch data from REST API using http package
-- Parse JSON response
-- Display users in ListView
-- Profile image using network avatar
-- Pull to refresh support
-- Error handling with retry button
-- Loading indicator
+- Email/password authentication (Firebase Auth)
+- Splash and auth wrapper flow
+- Add, edit, complete, delete, and search tasks
+- Undo for delete actions
+- Theme switch (light/dark) with saved preference
+- Local task storage with `SharedPreferences`
 
-## Tech Used
+## Tech Stack
 
-- Flutter
-- Dart
-- http package
+- `Flutter` / `Dart`
+- `firebase_core`
+- `firebase_auth`
+- `provider`
+- `shared_preferences`
+- `lottie`
 
-## API Used
+## Project Structure
 
-https://jsonplaceholder.typicode.com/users
+```text
+lib/
+  core/
+    theme/
+    utils/
+  data/
+    datasource/
+    models/
+  domain/
+    entities/
+  presentation/
+    screens/
+    widgets/
+  firebase_options.dart
+  main.dart
+```
 
-## How It Works
+## Prerequisites
 
-1. App sends GET request to API
-2. JSON response is parsed into list
-3. Data displayed using ListView
-4. Handles:
-   - Loading state
-   - Error state
-   - Success state
+Make sure you have installed:
 
-```md
-## Improvements
+- [Flutter SDK](https://docs.flutter.dev/get-started/install)
+- Dart SDK (comes with Flutter)
+- Android Studio or Xcode (for emulator/simulator)
+- A configured Firebase project
 
-- Clean architecture structure
-- Reusable API service class
-- Proper error handling
+Check setup:
+
+```bash
+flutter doctor
+```
+
+## Firebase Setup
+
+This project uses Firebase Auth and Firebase Core.
+
+1. Create a Firebase project in [Firebase Console](https://console.firebase.google.com/).
+2. Enable **Authentication** and turn on **Email/Password** provider.
+3. Configure FlutterFire and generate `firebase_options.dart`:
+
+```bash
+dart pub global activate flutterfire_cli
+flutterfire configure
+```
+
+4. Ensure platform config files are added as needed:
+   - Android: `android/app/google-services.json`
+   - iOS: `ios/Runner/GoogleService-Info.plist`
+
+> `lib/firebase_options.dart` is already present in this repository.
+
+## Installation & Run
+
+From project root:
+
+```bash
+flutter pub get
+flutter run
+```
+
+## Useful Commands
+
+```bash
+flutter analyze
+flutter test
+```
+
+## What I Used in This Project
+
+- **Architecture style**: simple layered structure (`domain`, `data`, `presentation`)
+- **State management**: `Provider` (`ThemeProvider`)
+- **Authentication**: Firebase Email/Password Auth
+- **Persistence**: local JSON serialization + `SharedPreferences`
+- **UI**: Material 3, custom widgets, modal bottom sheets, Lottie splash animation
+
+## Screenshots
+## User Interface Layout:
+Below is the UI implementation for Task Manager:
+<table>
+    <tbody>
+        <tr>
+            <th colspan="4" align="center">Task Manager Application Using Flutter</th>
+        </tr>
+        <tr>
+            <td><img width="300" height="440" alt="img1" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/splash.png"></td>
+            <td><img width="300" height="440" alt="img2" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/login1.png"></td>
+            <td><img width="300" height="440" alt="img3" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/login2.png"></td>
+            <td><img width="300" height="440" alt="img4" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/home1.png"></td>
+        </tr>
+        <tr>
+            <td><img width="300" height="440" alt="img5" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/home2.png"></td>
+            <td><img width="300" height="440" alt="img6" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/home3.png"></td>
+            <td><img width="300" height="440" alt="img7" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/home4.png"></td>
+            <td><img width="300" height="440" alt="img8" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/home5.png"></td>
+        </tr>
+        <tr>
+            <td><img width="300" height="440" alt="img9" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/home6.png"></td>
+            <td><img width="300" height="440" alt="img10" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/home7.png"></td>
+            <td><img width="300" height="440" alt="img11" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/home8.png"></td>
+            <td><img width="300" height="440" alt="img12" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/home9.png"></td>
+        </tr>
+       <tr>
+            <td><img width="300" height="440" alt="img13" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/home10.png"></td>
+            <td><img width="300" height="440" alt="img14" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/home11.png"></td>
+            <td><img width="300" height="440" alt="img15" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/home12.png"></td>
+            <td><img width="300" height="440" alt="img16" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/home13.png"></td>
+        </tr>
+        <tr>
+            <td colspan="4" align="center">
+                <a href="https://github.com/R-Rubab/Task-Manager-App">
+                    <img src="https://github-readme-stats.vercel.app/api/pin/?username=R-Rubab&repo=Task-Manager-App&theme=dracula" alt="Storage" />
+                </a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<!-- - ![Splash Screen](screenshots/splash.png)
+- ![Login Screen](screenshots/login1.png)
+- ![Home Screen](screenshots/home1.png)
+- ![Task List](screenshots/home2.png)
+- ![Add Task Bottom Sheet](screenshots/home3.png)
+- ![Incomplete Task Filter](screenshots/home4.png) -->
+
+## Video
+- [Watch Project Demo1](screenshots/video1.mov)
+<!-- - [Watch Project Demo2](screenshots/video2.mov) -->
+<!-- - [Watch Project Demo3](screenshots/firebase.mov) -->
+
+> Note: Add your media files inside the `screenshots/` folder before pushing to GitHub, otherwise these links will not render.
+
+
+## App Working (Detailed)
+
+This section explains exactly how the app runs from launch to daily usage.
+
+### 1) App startup flow
+
+1. `main.dart` initializes Flutter bindings.
+2. Firebase is initialized using `DefaultFirebaseOptions.currentPlatform`.
+3. `ThemeProvider` is injected with `Provider` so theme state is available app-wide.
+4. `MaterialApp` starts with `SplashScreen`.
+
+### 2) Splash and authentication flow
+
+1. `SplashScreen` shows a Lottie animation for a short delay.
+2. After the delay, it navigates to `AuthWrapper`.
+3. `AuthWrapper` listens to `FirebaseAuth.instance.authStateChanges()`.
+4. Routing logic:
+   - If user is logged in -> open `HomeScreen`
+   - If user is not logged in -> open `LoginScreen`
+
+This gives automatic session handling (no manual login check on every open).
+
+### 3) Login and signup working
+
+`LoginScreen` handles both sign-in and registration:
+
+- User enters email and password.
+- Form validation checks:
+  - Email is not empty and contains `@`
+  - Password is not empty and at least 6 chars
+- On **Login**:
+  - Calls `FirebaseAuth.signInWithEmailAndPassword`
+  - On success -> navigates to `HomeScreen`
+  - On failure -> shows snackbar error
+- On **Sign Up**:
+  - Calls `createUserWithEmailAndPassword`
+  - Then signs in and opens `HomeScreen`
+
+### 4) Home screen task management flow
+
+`HomeScreen` is the main productivity screen. It supports:
+
+- Add task
+- Edit task
+- Mark task complete/incomplete
+- Delete task (with undo)
+- Clear all tasks (with confirmation + undo)
+- Search tasks by title
+- Basic day schedule UI section
+
+#### Add task working
+
+1. Tap floating action button -> opens add-task bottom sheet.
+2. User provides:
+   - Task title
+   - Time
+   - Date
+3. App validates required fields.
+4. New `TaskModel` is added to in-memory task list.
+5. Tasks are saved to local storage.
+6. Bottom sheet closes and list refreshes.
+
+#### Edit task working
+
+1. Tap edit icon on a task tile.
+2. Bottom sheet opens with current task title.
+3. After update, task object is replaced with updated values.
+4. Changes are saved to local storage.
+
+#### Complete/pending working
+
+- Tapping checkbox toggles `isDone`.
+- UI updates status text and strike-through style.
+- Updated state is persisted immediately.
+
+#### Delete task + undo working
+
+- Swipe or tap delete to remove task.
+- App shows snackbar with `UNDO`.
+- If undone, task is restored at original position.
+
+#### Clear all + undo working
+
+- User taps clear action in app bar.
+- Confirmation dialog prevents accidental mass delete.
+- On confirm:
+  - Current list is backed up in memory
+  - All tasks are cleared and saved
+  - Snackbar offers `UNDO` to restore backup list
+
+### 5) Local data persistence flow
+
+Storage is handled in `LocalStorage` (`SharedPreferences`):
+
+1. Task list is converted to JSON (`toMap` -> `jsonEncode`).
+2. JSON string is saved under key `tasks`.
+3. On app open, saved JSON is read and decoded.
+4. `TaskModel.fromMap` recreates all tasks.
+
+This ensures tasks stay available after app restart.
+
+### 6) Theme (dark/light) working
+
+Theme state is managed by `ThemeProvider`:
+
+- Reads saved theme value from `SharedPreferences` during provider initialization.
+- `toggleTheme(bool)` updates in-memory state + storage.
+- `MaterialApp.themeMode` reacts via provider and updates UI instantly.
+
+### 7) Logout working
+
+- Logout button in drawer calls `FirebaseAuth.signOut()`.
+- Navigation stack is cleared.
+- User is routed back through auth flow and sees `LoginScreen`.
+
+### 8) Core model and layers
+
+- `domain/entities/task.dart`: base `Task` entity
+- `data/models/task_model.dart`: serialization model (`toMap`, `fromMap`)
+- `data/datasource/local_storage.dart`: persistence adapter
+- `presentation/screens/*`: user interface and interaction logic
+- `presentation/widgets/task_tile.dart`: reusable task row UI
+
+
+---
+
+# Week 4: API Integration and Networking
+
+## Objectives Covered
+
+* REST API integration using `http`
+* JSON parsing and model mapping
+* Loading states and error handling
+* Displaying API data in Flutter UI
+
+## Features Implemented
+
+### API Integration
+
+* Integrated public REST APIs using the `http` package.
+* Fetched user and task-related data asynchronously.
+
+### JSON Parsing
+
+* Parsed JSON responses into Dart model classes.
+* Used `fromJson()` and `toJson()` patterns for clean data handling.
+
+### User Profile Screen
+
+* Built a dedicated API-based user profile screen.
+* Displayed:
+
+  * User name
+  * Email
+  * Profile image/avatar
+
+### Error Handling
+
+* Added proper `try-catch` handling for failed requests.
+* Displayed friendly error messages when API requests failed.
+
+### Loading Indicators
+
+* Added `CircularProgressIndicator` while fetching remote data.
+* Improved user experience during network operations.
+
+---
+
+# Week 5: Firebase Authentication and Firestore
+
+## Objectives Covered
+
+* Firebase project setup
+* Authentication workflow
+* Firestore cloud database integration
+* Real-time cloud task management
+
+## Features Implemented
+
+### Firebase Authentication
+
+Integrated Firebase Email/Password authentication:
+
+* User signup
+* User login
+* Session persistence
+* Logout functionality
+* Forgot password support
+* Change password support
+* Delete account functionality
+
+### Auth Flow
+
+Implemented professional authentication flow using:
+
+* Splash Screen
+* Auth Wrapper
+* Firebase auth state listener
+
+The app automatically:
+
+* Redirects logged-in users to HomeScreen
+* Redirects unauthenticated users to LoginScreen
+
+### Firestore Database Integration
+
+Integrated Cloud Firestore for real-time cloud storage.
+
+### Cloud Task System
+
+Implemented:
+
+* Add cloud tasks
+* Edit cloud tasks
+* Delete cloud tasks
+* Toggle task completion
+* Real-time task updates using `StreamBuilder`
+
+### Cloud / Local Mode
+
+Added:
+
+* Local storage mode using `SharedPreferences`
+* Cloud sync mode using Firestore
+* Toggle switch between Local and Cloud modes
+
+### Profile Enhancements
+
+Implemented:
+
+* Profile image picker
+* Camera & gallery image support
+* Remove profile image option
+* Edit profile image option
+
+---
+
+# Week 6: Provider State Management & Final Enhancements
+
+## Objectives Covered
+
+* State management using Provider
+* Performance optimization
+* UI/UX improvements
+* Better architecture and scalability
+
+## Features Implemented
+
+### Provider State Management
+
+Refactored task management using the `provider` package.
+
+Implemented:
+
+* Add task
+* Delete task
+* Toggle completion
+* Update task
+* Clear all tasks
+
+## Screenshots
+## User Interface Layout:
+Below is the Update UI implementation for Task Manager:
+<table>
+    <tbody>
+        <tr>
+            <th colspan="4" align="center">Task Manager Application Using Flutter</th>
+        </tr>
+        <tr>
+            <td><img width="300" height="440" alt="img1" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/dashboard1.png"></td>
+            <td><img width="300" height="440" alt="img2" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/dashboard2.png"></td>
+            <td><img width="300" height="440" alt="img3" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/homeupdate.png"></td>
+            <td><img width="300" height="440" alt="img4" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/api.png"></td>
+        </tr>
+        <tr>
+            <td><img width="300" height="440" alt="img5" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/cloudfirebase.png"></td>
+            <td><img width="300" height="440" alt="img6" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/drawer.png"></td>
+            <td><img width="300" height="440" alt="img7" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/provider1.png"></td>
+            <td><img width="300" height="440" alt="img8" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/provider2.png"></td>
+        </tr>
+        <tr>
+            <td colspan="4" align="center">
+                <a href="https://github.com/R-Rubab/Task-Manager-App">
+                    <img src="https://github-readme-stats.vercel.app/api/pin/?username=R-Rubab&repo=Task-Manager-App&theme=dracula" alt="Storage" />
+                </a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+### Optimized Architecture
+
+Improved code structure using layered architecture:
+
+```text
+lib/
+  core/
+  data/
+  domain/
+  presentation/
+```
+
+### Real-Time UI Updates
+
+Used:
+
+* `ChangeNotifier`
+* `notifyListeners()`
+* Provider rebuild system
+
+to update UI instantly without manual refresh.
+
+### Premium UI Enhancements
+
+Enhanced overall application UI with:
+
+* Glassmorphism task cards
+* Modern gradients
+* Smooth animations
+* Premium bottom sheets
+* Improved AppBar & FAB
+* Animated task interactions
+* Dark/Light mode support
+
+### Additional Features Added
+
+* Undo delete functionality
+* Clear all confirmation dialog
+* Trash bin system
+* Search functionality
+* Filter chips
+* Voice search button UI
+* Dynamic weekly calendar section
+* Lottie splash animation
+* Persistent theme mode
+
+### Performance Improvements
+
+Optimized:
+
+* Widget rebuilds
+* Task update logic
+* State synchronization
+* Firestore stream handling
+
+---
+
+# Technologies Used
+
+* Flutter
+* Dart
+* Firebase Auth
+* Cloud Firestore
+* Provider
+* SharedPreferences
+* HTTP Package
+* Lottie
+* Image Picker
+
+---
+
+# Final Outcome
+
+The project evolved from a basic task manager into a production-style Flutter application with:
+
+* Authentication
+* Cloud database integration
+* API networking
+* Local persistence
+* State management
+* Premium UI/UX
+* Dark/Light themes
+* Real-time updates
+* Clean architecture
+
+
+---
+## Current Status
+
+- Analyzer: no issues
+- Tests: passing
+
+---
+## 👩‍💻 Author
+
+Rubab – Flutter Developer Intern
