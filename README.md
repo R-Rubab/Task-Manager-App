@@ -277,7 +277,7 @@ Below is the UI implementation for Task Manager:
             <td><img width="300" height="440" alt="img1" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/splash.png"></td>
             <td><img width="300" height="440" alt="img2" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/login1.png"></td>
             <td><img width="300" height="440" alt="img3" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/login2.png"></td>
-            <td><img width="300" height="440" alt="img4" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/home1.png"></td>
+            <td><img width="300" height="440" alt="img4" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/home1.png"></td> 
         </tr>
         <tr>
             <td><img width="300" height="440" alt="img5" src="https://github.com/R-Rubab/Task-Manager-App/blob/main/flutter_apps/screenshots/home2.png"></td>
@@ -314,8 +314,8 @@ Below is the UI implementation for Task Manager:
 - ![Add Task Bottom Sheet](screenshots/home3.png)
 - ![Incomplete Task Filter](screenshots/home4.png) -->
 
-## Video
-- [Watch Project Demo1](screenshots/video1.mov)
+<!-- ## Video -->
+<!-- - [Watch Project Demo1](screenshots/video1.mov) -->
 <!-- - [Watch Project Demo2](screenshots/video2.mov) -->
 <!-- - [Watch Project Demo3](screenshots/firebase.mov) -->
 
